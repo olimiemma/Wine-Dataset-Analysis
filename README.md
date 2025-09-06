@@ -1,4 +1,4 @@
-# Wine Sales Analytics: Comprehensive EDA & ML Pipeline
+<img width="5707" height="2525" alt="correlation_heatmaps_combined" src="https://github.com/user-attachments/assets/73d24f5f-5a7c-4b1d-96e7-f1ceb77bc0cc" /># Wine Sales Analytics: Comprehensive EDA & ML Pipeline
 
 ![cover](https://github.com/user-attachments/assets/245d3af1-ea85-4a4b-b8b1-db276af328f0)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
@@ -118,6 +118,8 @@ insights = analyzer.generate_business_recommendations()
 ```
 
 ## 📈 Key Findings & Business Impact
+<img width="5261" height="3539" alt="target_distribution_analysis" src="https://github.com/user-attachments/assets/67dbfda2-26c2-42e1-9de2-e01bbdbdb2fd" />
+
 
 ### Sales Success Drivers
 1. **Quality Ratings (STARS)**: 55.9% correlation with sales
@@ -195,6 +197,12 @@ The project generates 30+ professional visualizations across categories:
 - Before/after transformation comparisons
 - Outlier detection consensus analysis
 - Data pipeline validation reports
+
+<img width="5707" height="2525" alt="correlation_heatmaps_combined" src="https://github.com/user-attachments/assets/3d48e761-1e98-4b82-bb59-bbadf7354a8b" />
+
+<img width="3567" height="2366" alt="detailed_histogram_acidindex" src="https://github.com/user-attachments/assets/605fde46-41a7-483c-8ec0-55cdebdbec9d" />
+
+<img width="5367" height="3539" alt="before_after_comparison_cap_percentiles" src="https://github.com/user-attachments/assets/67fe044d-f0e5-4412-85de-537d7a02ec08" />
 
 ## 🧪 Wine Chemistry Domain Integration
 
