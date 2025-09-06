@@ -134,8 +134,7 @@ insights = analyzer.generate_business_recommendations()
 - **Feature Enhancement**: 50% increase in feature set (14 → 21 variables)
 - **ML Readiness**: Zero missing values with proper scaling and validation
 
-  <img width="5707" height="2525" alt="correlation_heatmaps_combined" src="https://github.com/user-attachments/assets/92bfa08d-57c8-4bb6-bc06-782bad5e0dbd" />
-
+ 
 
 ## 🏗️ Project Structure
 
