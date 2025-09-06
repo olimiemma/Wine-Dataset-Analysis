@@ -1,5 +1,3 @@
-<img width="5707" height="2525" alt="correlation_heatmaps_combined" src="https://github.com/user-attachments/assets/73d24f5f-5a7c-4b1d-96e7-f1ceb77bc0cc" /># Wine Sales Analytics: Comprehensive EDA & ML Pipeline
-
 ![cover](https://github.com/user-attachments/assets/245d3af1-ea85-4a4b-b8b1-db276af328f0)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -135,6 +133,9 @@ insights = analyzer.generate_business_recommendations()
 - **Data Quality Transformation**: 99% outlier rate systematically addressed
 - **Feature Enhancement**: 50% increase in feature set (14 → 21 variables)
 - **ML Readiness**: Zero missing values with proper scaling and validation
+
+  <img width="5707" height="2525" alt="correlation_heatmaps_combined" src="https://github.com/user-attachments/assets/92bfa08d-57c8-4bb6-bc06-782bad5e0dbd" />
+
 
 ## 🏗️ Project Structure
 
