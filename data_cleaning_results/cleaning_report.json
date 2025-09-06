@@ -1,0 +1,847 @@
+{
+  "cleaning_summary": {
+    "original_shape": [
+      12795,
+      16
+    ],
+    "final_shape": [
+      12795,
+      23
+    ],
+    "features_added": 7,
+    "total_transformations": 44
+  },
+  "transformation_log": [
+    {
+      "timestamp": "2025-09-06T13:25:49.981616",
+      "step": "Mean Imputation - ResidualSugar",
+      "description": "Filled 616 missing values with mean 5.419",
+      "details": {
+        "method": "mean",
+        "imputed_value": 5.418733065112078,
+        "missing_count": "616"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.982114",
+      "step": "Mean Imputation - Chlorides",
+      "description": "Filled 638 missing values with mean 0.055",
+      "details": {
+        "method": "mean",
+        "imputed_value": 0.0548224891009295,
+        "missing_count": "638"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.982549",
+      "step": "Mean Imputation - pH",
+      "description": "Filled 395 missing values with mean 3.208",
+      "details": {
+        "method": "mean",
+        "imputed_value": 3.2076282258064515,
+        "missing_count": "395"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.983084",
+      "step": "Median Imputation - FreeSulfurDioxide",
+      "description": "Filled 647 missing values with median 30.000",
+      "details": {
+        "method": "median",
+        "imputed_value": 30.0,
+        "missing_count": "647"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.983612",
+      "step": "Median Imputation - TotalSulfurDioxide",
+      "description": "Filled 682 missing values with median 123.000",
+      "details": {
+        "method": "median",
+        "imputed_value": 123.0,
+        "missing_count": "682"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.984151",
+      "step": "Median Imputation - Sulphates",
+      "description": "Filled 1,210 missing values with median 0.500",
+      "details": {
+        "method": "median",
+        "imputed_value": 0.5,
+        "missing_count": "1210"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.984674",
+      "step": "Median Imputation - Alcohol",
+      "description": "Filled 653 missing values with median 10.400",
+      "details": {
+        "method": "median",
+        "imputed_value": 10.4,
+        "missing_count": "653"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.985182",
+      "step": "\ud83c\udf1f CRITICAL: Median Imputation - STARS",
+      "description": "Filled 3,359 missing values with median 2.0 (strongest sales predictor)",
+      "details": {
+        "method": "median",
+        "imputed_value": 2.0,
+        "missing_count": "3359"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.992339",
+      "step": "Tier 1 Outlier Treatment - FixedAcidity",
+      "description": "Winsorized 370 severe outliers (2.9%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": -10.9,
+        "upper_bound": 24.30599999999995,
+        "outliers_treated": "370"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:49.996352",
+      "step": "Tier 1 Outlier Treatment - VolatileAcidity",
+      "description": "Winsorized 396 severe outliers (3.1%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": -1.8509000000000002,
+        "upper_bound": 2.580599999999995,
+        "outliers_treated": "396"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.000432",
+      "step": "Tier 1 Outlier Treatment - CitricAcid",
+      "description": "Winsorized 426 severe outliers (3.3%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": -2.18,
+        "upper_bound": 2.66,
+        "outliers_treated": "426"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.004374",
+      "step": "Tier 1 Outlier Treatment - ResidualSugar",
+      "description": "Winsorized 2,018 severe outliers (15.8%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": -89.036,
+        "upper_bound": 96.9119999999999,
+        "outliers_treated": "2018"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.008447",
+      "step": "Tier 1 Outlier Treatment - Chlorides",
+      "description": "Winsorized 2,216 severe outliers (17.3%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": -0.8451799999999999,
+        "upper_bound": 0.952,
+        "outliers_treated": "2216"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.012510",
+      "step": "Tier 1 Outlier Treatment - FreeSulfurDioxide",
+      "description": "Winsorized 2,290 severe outliers (17.9%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": -381.06,
+        "upper_bound": 460.23999999999796,
+        "outliers_treated": "2290"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.016658",
+      "step": "Tier 1 Outlier Treatment - TotalSulfurDioxide",
+      "description": "Winsorized 326 severe outliers (2.5%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": -515.06,
+        "upper_bound": 744.119999999999,
+        "outliers_treated": "326"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.020988",
+      "step": "Tier 1 Outlier Treatment - Density",
+      "description": "Winsorized 1,369 severe outliers (10.7%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": 0.9169316,
+        "upper_bound": 1.0693587999999996,
+        "outliers_treated": "1369"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.025250",
+      "step": "Tier 1 Outlier Treatment - pH",
+      "description": "Winsorized 339 severe outliers (2.6%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": 1.33,
+        "upper_bound": 5.110599999999995,
+        "outliers_treated": "339"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.029743",
+      "step": "Tier 1 Outlier Treatment - Sulphates",
+      "description": "Winsorized 1,365 severe outliers (10.7%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": -2.0705999999999998,
+        "upper_bound": 3.09,
+        "outliers_treated": "1365"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.034179",
+      "step": "Tier 1 Outlier Treatment - Alcohol",
+      "description": "Winsorized 195 severe outliers (1.5%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": 0.2,
+        "upper_bound": 20.2,
+        "outliers_treated": "195"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.040349",
+      "step": "Tier 1 Outlier Treatment - AcidIndex",
+      "description": "Winsorized 264 severe outliers (2.1%)",
+      "details": {
+        "method": "winsorization",
+        "lower_bound": 6.0,
+        "upper_bound": 13.0,
+        "outliers_treated": "264"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.059458",
+      "step": "Yeo-Johnson Transform - FixedAcidity",
+      "description": "Transformed distribution (skewness: -0.023 \u2192 0.194)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": -0.02325835103932745,
+        "transformed_skewness": 0.19441894132615897,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.076062",
+      "step": "Yeo-Johnson Transform - VolatileAcidity",
+      "description": "Transformed distribution (skewness: 0.044 \u2192 0.100)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": 0.04370034642610276,
+        "transformed_skewness": 0.09987546019381993,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.092813",
+      "step": "Yeo-Johnson Transform - CitricAcid",
+      "description": "Transformed distribution (skewness: -0.070 \u2192 0.105)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": -0.06995398299346677,
+        "transformed_skewness": 0.10490341472244002,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.112216",
+      "step": "Yeo-Johnson Transform - ResidualSugar",
+      "description": "Transformed distribution (skewness: -0.061 \u2192 0.399)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": -0.06052194424335808,
+        "transformed_skewness": 0.3989876012432527,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.132067",
+      "step": "Yeo-Johnson Transform - Chlorides",
+      "description": "Transformed distribution (skewness: 0.027 \u2192 0.027)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": 0.02670338459973399,
+        "transformed_skewness": 0.026938752757607497,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.154849",
+      "step": "Yeo-Johnson Transform - FreeSulfurDioxide",
+      "description": "Transformed distribution (skewness: 0.009 \u2192 0.633)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": 0.009092351636235667,
+        "transformed_skewness": 0.6325928810794291,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.179808",
+      "step": "Yeo-Johnson Transform - TotalSulfurDioxide",
+      "description": "Transformed distribution (skewness: -0.028 \u2192 0.501)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": -0.028464085729125146,
+        "transformed_skewness": 0.5009988217564177,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.194073",
+      "step": "Yeo-Johnson Transform - Sulphates",
+      "description": "Transformed distribution (skewness: 0.005 \u2192 0.160)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": 0.005211755997736135,
+        "transformed_skewness": 0.1595731202961155,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.207444",
+      "step": "Yeo-Johnson Transform - Alcohol",
+      "description": "Transformed distribution (skewness: -0.047 \u2192 0.074)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": -0.04702662939657295,
+        "transformed_skewness": 0.07350035114005514,
+        "has_negative_values": "False"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.223430",
+      "step": "Yeo-Johnson Transform - LabelAppeal",
+      "description": "Transformed distribution (skewness: 0.008 \u2192 0.001)",
+      "details": {
+        "method": "yeo-johnson",
+        "original_skewness": 0.008430445334064843,
+        "transformed_skewness": 0.000781804032998973,
+        "has_negative_values": "True"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.229000",
+      "step": "Quantile Transform - Density",
+      "description": "Applied quantile transformation to normal distribution",
+      "details": {
+        "method": "quantile_normal",
+        "output_distribution": "normal"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.234299",
+      "step": "Quantile Transform - pH",
+      "description": "Applied quantile transformation to normal distribution",
+      "details": {
+        "method": "quantile_normal",
+        "output_distribution": "normal"
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.275760",
+      "step": "Box-Cox Transform - AcidIndex",
+      "description": "Transformed right-skewed distribution (skewness: 1.416 \u2192 -0.001)",
+      "details": {
+        "method": "box-cox",
+        "original_skewness": 1.4163390689706716,
+        "transformed_skewness": -0.0007711918679167847
+      },
+      "data_shape": [
+        12795,
+        16
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.277044",
+      "step": "Feature Engineering - SO2 Ratio",
+      "description": "Created total_to_free_so2_ratio (SO2 binding effectiveness)",
+      "details": {
+        "formula": "TotalSulfurDioxide / (FreeSulfurDioxide + 1)"
+      },
+      "data_shape": [
+        12795,
+        17
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.277557",
+      "step": "Feature Engineering - Acidity Balance",
+      "description": "Created acidity_balance_ratio (good vs bad acidity)",
+      "details": {
+        "formula": "FixedAcidity / (VolatileAcidity + 0.1)"
+      },
+      "data_shape": [
+        12795,
+        18
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.278025",
+      "step": "Feature Engineering - Sugar-Alcohol",
+      "description": "Created sugar_alcohol_ratio (dryness indicator)",
+      "details": {
+        "formula": "ResidualSugar / (Alcohol + 1)"
+      },
+      "data_shape": [
+        12795,
+        19
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.278600",
+      "step": "Feature Engineering - Density Deviation",
+      "description": "Created density_alcohol_deviation (authenticity indicator)",
+      "details": {
+        "formula": "abs(Density - (1.0 - 0.01 * Alcohol))"
+      },
+      "data_shape": [
+        12795,
+        20
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.278980",
+      "step": "Feature Engineering - Premium Synergy",
+      "description": "Created stars_label_synergy (top 2 sales predictors interaction)",
+      "details": {
+        "formula": "STARS * LabelAppeal"
+      },
+      "data_shape": [
+        12795,
+        21
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.279724",
+      "step": "Feature Engineering - Quality Chemistry",
+      "description": "Created quality_chemistry_interaction (STARS \u00d7 normalized AcidIndex)",
+      "details": {
+        "formula": "STARS * (1 - normalized_AcidIndex)"
+      },
+      "data_shape": [
+        12795,
+        22
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.280303",
+      "step": "Feature Engineering - Premium Indicator",
+      "description": "Created alcohol_appeal_premium (luxury market segment)",
+      "details": {
+        "formula": "Alcohol * LabelAppeal * (STARS > 2.5)"
+      },
+      "data_shape": [
+        12795,
+        23
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.301977",
+      "step": "RobustScaler Applied",
+      "description": "Scaled 19 outlier-heavy variables",
+      "details": {
+        "method": "robust_scaler",
+        "variables": [
+          "FixedAcidity",
+          "VolatileAcidity",
+          "CitricAcid",
+          "ResidualSugar",
+          "Chlorides",
+          "FreeSulfurDioxide",
+          "TotalSulfurDioxide",
+          "Density",
+          "pH",
+          "Sulphates",
+          "Alcohol",
+          "AcidIndex",
+          "total_to_free_so2_ratio",
+          "acidity_balance_ratio",
+          "sugar_alcohol_ratio",
+          "density_alcohol_deviation",
+          "stars_label_synergy",
+          "quality_chemistry_interaction",
+          "alcohol_appeal_premium"
+        ],
+        "rationale": "Heavy outlier variables from EDA findings"
+      },
+      "data_shape": [
+        12795,
+        23
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.304379",
+      "step": "StandardScaler Applied",
+      "description": "Scaled 1 business variables",
+      "details": {
+        "method": "standard_scaler",
+        "variables": [
+          "LabelAppeal"
+        ],
+        "rationale": "Important business variables with mild outliers"
+      },
+      "data_shape": [
+        12795,
+        23
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.306467",
+      "step": "MinMaxScaler Applied",
+      "description": "Scaled 1 bounded variables",
+      "details": {
+        "method": "minmax_scaler",
+        "variables": [
+          "STARS"
+        ],
+        "rationale": "Natural bounded scale (1-4 stars)"
+      },
+      "data_shape": [
+        12795,
+        23
+      ]
+    },
+    {
+      "timestamp": "2025-09-06T13:25:50.306490",
+      "step": "No Scaling Applied",
+      "description": "Preserved original scale for 1 variables",
+      "details": {
+        "method": "no_scaling",
+        "variables": [
+          "TARGET"
+        ],
+        "rationale": "Target variable - preserve interpretability"
+      },
+      "data_shape": [
+        12795,
+        23
+      ]
+    }
+  ],
+  "validation_results": {
+    "normality_improvement": {
+      "INDEX": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "FixedAcidity": {
+        "p_value": 6.03716406719732e-52,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "VolatileAcidity": {
+        "p_value": 1.6582995156699803e-54,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "CitricAcid": {
+        "p_value": 9.078168003323886e-55,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "ResidualSugar": {
+        "p_value": 1.3494337141085635e-133,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "Chlorides": {
+        "p_value": 4.162220669112282e-69,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "FreeSulfurDioxide": {
+        "p_value": 2.2795120353830437e-245,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "TotalSulfurDioxide": {
+        "p_value": 1.25231601094001e-156,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "Density": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "pH": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "Sulphates": {
+        "p_value": 2.4822316617068476e-83,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "Alcohol": {
+        "p_value": 4.9689470521599e-44,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "LabelAppeal": {
+        "p_value": 3.064184778720277e-11,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "AcidIndex": {
+        "p_value": 0.8489349091580741,
+        "is_normal": "True",
+        "improvement": "tested"
+      },
+      "STARS": {
+        "p_value": 2.172207693317654e-131,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "total_to_free_so2_ratio": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "acidity_balance_ratio": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "sugar_alcohol_ratio": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "density_alcohol_deviation": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "stars_label_synergy": {
+        "p_value": 8.636327922276321e-263,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "quality_chemistry_interaction": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      },
+      "alcohol_appeal_premium": {
+        "p_value": 0.0,
+        "is_normal": "False",
+        "improvement": "tested"
+      }
+    },
+    "missing_data_recovery": {
+      "total_missing_cells": "0",
+      "missing_rate_percent": 0.0,
+      "complete_recovery": "True"
+    },
+    "outlier_impact_reduction": {},
+    "correlation_preservation": {
+      "STARS_TARGET": {
+        "correlation": 0.40013499715122697,
+        "preserved": "False"
+      }
+    },
+    "business_validation": {
+      "total_to_free_so2_ratio": {
+        "has_infinite_values": "False",
+        "has_missing_values": "False",
+        "is_valid": true
+      },
+      "acidity_balance_ratio": {
+        "has_infinite_values": "False",
+        "has_missing_values": "False",
+        "is_valid": true
+      },
+      "sugar_alcohol_ratio": {
+        "has_infinite_values": "False",
+        "has_missing_values": "False",
+        "is_valid": true
+      },
+      "density_alcohol_deviation": {
+        "has_infinite_values": "False",
+        "has_missing_values": "False",
+        "is_valid": true
+      },
+      "stars_label_synergy": {
+        "has_infinite_values": "False",
+        "has_missing_values": "False",
+        "is_valid": true
+      },
+      "quality_chemistry_interaction": {
+        "has_infinite_values": "False",
+        "has_missing_values": "False",
+        "is_valid": true
+      },
+      "alcohol_appeal_premium": {
+        "has_infinite_values": "False",
+        "has_missing_values": "False",
+        "is_valid": true
+      }
+    }
+  },
+  "scalers_used": [
+    "robust",
+    "standard",
+    "minmax"
+  ],
+  "transformers_used": [
+    "FixedAcidity",
+    "VolatileAcidity",
+    "CitricAcid",
+    "ResidualSugar",
+    "Chlorides",
+    "FreeSulfurDioxide",
+    "TotalSulfurDioxide",
+    "Sulphates",
+    "Alcohol",
+    "LabelAppeal",
+    "Density",
+    "pH",
+    "AcidIndex"
+  ]
+}
