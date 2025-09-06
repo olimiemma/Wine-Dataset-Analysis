@@ -1,7 +1,7 @@
 # Wine Sales Analytics: Comprehensive EDA & ML Pipeline
 
 ![cover](https://github.com/user-attachments/assets/245d3af1-ea85-4a4b-b8b1-db276af328f0)
-
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data Science](https://img.shields.io/badge/Data%20Science-EDA%20%26%20ML-green)](https://github.com/topics/data-science)
 [![Wine Industry](https://img.shields.io/badge/Domain-Wine%20Industry-purple)](https://github.com/topics/wine)
